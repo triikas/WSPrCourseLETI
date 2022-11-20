@@ -1,8 +1,10 @@
 .img {
-    height: 70vh;
+    width: 50px;
 }
-.main {
-    color: beige;
-    background-color: #313335;
 
+.main {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    color: #242630;
+    background-color: #3c3f41;
 }
