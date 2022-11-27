@@ -33,3 +33,9 @@ export default function Gallery() {
             <Photos content={content} />
         </main>)
 }
+
+export async function getStaticProps(context) {
+    return {
+        props: {},
+    };
+}
