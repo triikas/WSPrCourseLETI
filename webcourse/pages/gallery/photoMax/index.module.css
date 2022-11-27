@@ -3,8 +3,10 @@
 }
 
 .main {
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
     color: #242630;
     background-color: #3c3f41;
+
 }
