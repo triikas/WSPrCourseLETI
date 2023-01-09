@@ -8,8 +8,8 @@ export const Card = ({img, title, tags, id}) => {
                 <img className="w-100 rounded-5 " src={img}/>
             </div>
             <div className="p-3">
-                {tags.map(tag => (
-                    <span className="text-light mx-2">{tag}</span>
+                {tags.map((tag, i) => (
+                    <span className="text-light mx-2" key={i}>{tag}</span>
                 ))}
                 {/*<span className="text-light"></span>*/}
                 <Link href={`/blog/${id}`} className="text-decoration-none">

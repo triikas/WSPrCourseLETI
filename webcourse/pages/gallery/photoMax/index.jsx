@@ -3,7 +3,7 @@ import css from "./index.module.css"
 import {useRouter} from "next/router";
 import Link from "next/link";
 
-export default function photoMax() {
+export default function PhotoMax() {
     const { asPath } = useRouter();
     let query = asPath.split('?keyword=')[1];
     query = String(query).replaceAll("%3A", ":");
