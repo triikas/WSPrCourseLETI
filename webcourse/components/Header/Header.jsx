@@ -10,7 +10,7 @@ export const Header = () => {
             <nav className="d-flex justify-content-between">
                 <ul className={css.ul}>
                     <li><ButtonLink href="">Главная</ButtonLink></li>
-                    <li><ButtonLink href="/profile">Профиль</ButtonLink></li>
+                    <li><ButtonLink href="/users/avtorization">Вход</ButtonLink></li>
                     <li><ButtonLink href="/about">О нас</ButtonLink></li>
                 </ul>
             </nav>
