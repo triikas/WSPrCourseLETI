@@ -1,0 +1,37 @@
+body {
+    /*background-color: #3c3f41;*/
+    background-color: #242630;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+article img {
+    width: 90%;
+}
+article a {
+    color: rgba(141, 125, 192, 0.82);
+    text-decoration: none;
+
+}
+article a:hover {
+    color: rgba(118,45,143,0.82);
+}
+/*.zap {*/
+/*    display: none;*/
+/*}*/
+/*.zap2 {*/
+/*    display: none;*/
+/*}*/
+@media (min-width: 1100px) {
+    main {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+/*@media (min-width: 1500px) {*/
+/*    .zap {*/
+/*        display: none;*/
+/*    }*/
+/*    .zap2 {*/
+/*        display: flex;*/
+/*    }*/
+/*}*/

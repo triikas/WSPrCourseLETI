@@ -1,0 +1,13 @@
+.ava {
+    background-color: #ff4197;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
+.divo{
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #12151e;
+    border-radius: 33px;
+    /*max-width: 900px;*/
+    background-color: #0e101c;
+}
